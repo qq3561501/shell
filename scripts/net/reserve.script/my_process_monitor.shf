@@ -1,0 +1,55 @@
+#! /bin/sh
+###############################################
+#env_get:funtion to get essential argument
+#env_set:funtion to set the environment
+###############################################
+scp_print(){
+###############################################
+#$1: rootfs tar package size
+#$2: ip address
+###############################################		
+echo " " | tee -a ./tmplog
+			msg="conveying..."
+			prog_pos=$((${#msg}+1))
+			perc_pos=$((${#msg}+53))
+			echo $msg
+	 		tsize=$1
+	 		nsize=0
+	 		prev=-1
+			while [ $tsize -ne $nsize ];do
+				nsize=`sshpass -p tilera ssh root@$2 "ls -l /opt/tile.tar.xz" | awk '{print $5}'` 
+				percent=$((nsize*100/tsize))
+				if [ $percent -ne $prev  ]; then 
+            plus=$((percent/2))
+            progress=$(printf "%.${plus}d" | tr '0' '+')
+            echo -e "\e[A\e[${prog_pos}G${progress}=>"
+            echo -e "\e[A\e[${perc_pos}G${percent}%"
+            prev=$percent
+        fi
+			done
+}  
+extract_print(){
+###############################################
+#$1: ip address
+###############################################	 
+	disk=`sshpass -p tilera ssh root@$1 " [ -f /opt/rootfs_tmplog ] && cat /opt/rootfs_tmplog"`
+	disk=`echo $disk | awk {}`	
+	while [ $disk ];do
+		disk=`sshpass -p tilera ssh root@$1 " [ -f /opt/rootfs_tmplog ] && cat /opt/rootfs_tmplog"`
+		exsize=`sshpass -p tilera ssh root@$1 "df -h | grep $disk"`
+		exsize=`echo $exsize | awk '{print $3}'`
+		[ $disk == $disk_now ] || echo "$disk extracting..."
+		echo -e "\e[A\e[50G            "
+		echo -e "\e[A\e[50G[ \033[0;32;1m$exsize\033[0m ]"
+		disk_now=$disk	
+		sleep 5       
+	done	 	
+}  
+
+back_line(){
+line="\e[A\e"
+for i in `seq $1` ; do
+	lines=$lines$line
+done
+echo -ne "${lines}[G"	
+	}  

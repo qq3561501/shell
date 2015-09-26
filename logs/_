@@ -1,0 +1,30 @@
+[2015年 03月 24日 星期二 11:50:05 CST]: fival version  
+[BOARD-VERSION----2015-03-24 11:50:05]: Get the board serial     : 
+[BIB-VERSION------2015-03-24 11:50:05]: Get the bib versionl     : 
+[MDE-VERSION------2015-03-24 11:50:05]: Get the mde version      : 
+[MEM-SIZE---------2015-03-24 11:50:05]: Get the memory size      : 1.61031 GB
+[MEM-FREQ---------2015-03-24 11:50:05]: Get the memory freq      :  MHz
+[CPU-FREQ---------2015-03-24 11:50:05]: Get the cpu freq         : 17001.7 GHz
+[SROMBOOT-SIZE----2015-03-24 11:50:05]: Get the sromboot size    :  Bytes
+[RAMFSROM-VERSION-2015-03-24 11:50:05]: Get the ramfsrom version : unknow version
+[SDAROM-VERSION---2015-03-24 11:50:05]: Get the sdasrom version  : unknow version
+[DISK-LINKSPEED---2015-03-24 11:50:05]: Get the disk linkspeed   : 3.0
+1.5
+1.5 Gbps
+[DISK-SIZE--------2015-03-24 11:50:05]: Get the sda size         : 500.1 GB,
+[Tue Jun 30 14:10:44 EDT 2015]: burn bootrom 
+sbim install sromboot_433.bin success.
+sbim install fvcommon-ramfs failed.
+sbim install fvcommon-sda1 failed.
+[Tue Jun 30 18:39:06 EDT 2015]: burn bootrom 
+sbim install sromboot_433.bin success.
+sbim install fvcommon-ramfs failed.
+sbim install fvcommon-sda1 failed.
+[Wed Jul  1 12:28:54 EDT 2015]: burn bootrom 
+sbim install sromboot_433.bin success.
+sbim install fvcommon-ramfs success.
+sbim install fvcommon-sda1 success.
+[Wed Jul  1 12:54:19 EDT 2015]: burn bootrom 
+sbim install sromboot_433.bin success.
+sbim install fvcommon-ramfs success.
+sbim install fvcommon-sda1 success.

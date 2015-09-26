@@ -1,0 +1,36 @@
+[Thu Jun 25 00:53:20 CST 2015]: offline start P01010100 : NAPA-MASTER (rev: A1) 4NAP110101520198
+Find Sda: 32078036992 bytes, start to mkfs.
+Initialize the disk(sda) success.
+We can't find Sdb on  4NAP110101520198 usb1
+We can't find Sdc on  4NAP110101520198 usb1
+sbim install sromboot_433.bin success.
+sbim install fvcommon-ramfs-184581.sp1.01.bootrom success.
+sbim install fvcommon-sda1-184581.sp1.01.bootrom success.
+Dump the version of the  FPGA's rom.
+	Major version: 8
+	Release date: 2014-5-30
+[Thu Jun 25 00:56:23 CST 2015]: offline start fb
+Mount and copy the filesystem on sda   sucess
+#### Error no sdb ######
+#### Error no sdc ######
+[Thu Jun 25 01:42:31 CST 2015]: fival version P01010100 : NAPA-MASTER (rev: A1) 4NAP110101520198
+[BOARD-VERSION----2015-06-25 01:42:31]: Get the board serial     : 4NAP110101520198
+[BIB-VERSION------2015-06-25 01:42:31]: Get the bib versionl     : fvbib-napa-V1.14
+[MDE-VERSION------2015-06-25 01:42:32]: Get the mde version      : 4.3.3.184581 [sp1.0] (source dist) 2015-03-09 15:59:15
+[MEM-SIZE---------2015-06-25 01:42:32]: Get the memory size      : 15.8568 GB
+[MEM-FREQ---------2015-06-25 01:42:32]: Get the memory freq      : 1328 MHz
+[CPU-FREQ---------2015-06-25 01:42:32]: Get the cpu freq         : 1.2 GHz
+[SROMBOOT-SIZE----2015-06-25 01:42:32]: Get the sromboot size    : 3904 Bytes
+[RAMFSROM-VERSION-2015-06-25 01:42:32]: Get the ramfsrom version : fvcommon-ramfs-184581sp1.01.bootrom
+[SDAROM-VERSION---2015-06-25 01:42:32]: Get the sdasrom version  : fvcommon-sda1-184581sp1.01.bootrom
+[DISK-LINKSPEED---2015-06-25 01:42:32]: Get the disk linkspeed   :  Gbps
+[DISK-SIZE--------2015-06-25 01:42:32]: Get the sda size         : 32.0 GB,
+[Thu Jun 25 13:40:21 CST 2015]: offline start P01010100 : NAPA-MASTER (rev: A1) 4NAP110101520198
+[Thu Jun 25 13:40:23 CST 2015]: offline start creat rootfs
+#### Error no sda ######
+#### Error no sdb ######
+#### Error no sdc ######
+[Thu Jun 25 13:40:23 CST 2015]: offline start modify operation
+#### Error no sda ######
+#### Error no sdb ######
+#### Error no sdc ######

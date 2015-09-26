@@ -1,0 +1,13 @@
+#! /bin/sh
+print_check(){
+case $1 in
+		0)  echo -e "\e[50G[ \033[0;32;1mOK\033[0m ]" ;;
+		1)  echo "error mount error";;			
+		10) echo " error $1 can't find any media";exit 99;;
+		15) echo "error $1 partition error";exit 99;;
+		13) echo "error $1 mkfs error";exit 99;;
+	  15) echo "error $1 sbim error";exit 99;;
+		99) exit 99;;
+		*)  echo "undefined return argue $1 can't handle";exit 99;;
+		esac	
+}		

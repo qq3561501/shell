@@ -1,0 +1,24 @@
+[Mon May 25 10:31:12 CST 2015]: offline start P01020100 [NAPA-SLAVE (Rev: A1)] 4NAP110101460177
+Find Sda: 32078036992 bytes, start to mkfs.
+Initialize the disk(sda) success.
+We can't find Sdb on  4NAP110101460177 usb1
+We can't find Sdc on  4NAP110101460177 usb1
+sbim install sromboot_433.bin success.
+sbim install fvcommon-ramfs-uarts-184581.sp1.0.bootrom success.
+sbim install fvcommon-sda1-uarts-184581.sp1.0.bootrom  success.
+[Mon May 25 10:34:08 CST 2015]: offline start fb
+Mount and copy the filesystem on sda   sucess
+#### Error no sdb ######
+#### Error no sdc ######
+[Mon May 25 11:13:08 CST 2015]: fival version P01020100 [NAPA-SLAVE (Rev: A1)] 4NAP110101460177
+[BOARD-VERSION----2015-05-25 11:13:08]: Get the board serial     : 4NAP110101460177
+[BIB-VERSION------2015-05-25 11:13:08]: Get the bib versionl     : fvbib-napa-V1.24
+[MDE-VERSION------2015-05-25 11:13:08]: Get the mde version      : 4.2.2.169597 [sp1.0] (source dist) 2014-05-14 15:29:10
+[MEM-SIZE---------2015-05-25 11:13:08]: Get the memory size      : 15.8537 GB
+[MEM-FREQ---------2015-05-25 11:13:08]: Get the memory freq      : 1328 MHz
+[CPU-FREQ---------2015-05-25 11:13:08]: Get the cpu freq         : 1 GHz
+[SROMBOOT-SIZE----2015-05-25 11:13:08]: Get the sromboot size    : 3904 Bytes
+[RAMFSROM-VERSION-2015-05-25 11:13:08]: Get the ramfsrom version : unknow version
+[SDAROM-VERSION---2015-05-25 11:13:08]: Get the sdasrom version  : unknow version
+[DISK-LINKSPEED---2015-05-25 11:13:08]: Get the disk linkspeed   :  Gbps
+[DISK-SIZE--------2015-05-25 11:13:08]: Get the sda size         : 32.0 GB,

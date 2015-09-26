@@ -1,0 +1,44 @@
+#! /bin/sh
+
+partition(){
+	
+case $1 in
+	 
+	sda)
+	 
+	[ -b /dev/sda ] || mknod /dev/sda b 8 0 
+	
+	[ -b /dev/sda1 ] || mknod /dev/sda1 b 8 11
+	
+	;;
+	
+	sdb)
+	
+	[ -b /dev/sdb ] || mknod /dev/sdb b 8 16 
+	
+	[ -b /dev/sdb1 ] || mknod /dev/sdb1 b 8 17 
+	
+	;;
+	
+	sdc)
+	
+	[ -b /dev/sdc ] || mknod /dev/sdc b 8 32
+	 
+	[ -b /dev/sdc1 ] || mknod /dev/sdb1 b 8 33
+	 
+	;;
+	
+	*)
+	
+	echo "can't handle $1 . new media? contact administrator to solve this"
+	
+	exit 15
+	
+	;;
+	
+esac
+
+ 
+
+}
+

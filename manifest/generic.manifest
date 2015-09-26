@@ -1,0 +1,9 @@
+#: generic settings for all tilegx devices
+#args:media ip interactive
+10-setenv.sh
+15-partition.sh
+20-mkfs.sh
+25-rootfs.sh
+30-sysmodify.sh
+40-sbim.sh
+99-chkver.sh

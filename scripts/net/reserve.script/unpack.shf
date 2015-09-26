@@ -1,0 +1,35 @@
+#!/bin/sh
+###################################################
+# $1 : xz file
+# $2 : whitch file to decompress
+###################################################
+xz_unpack(){
+TSIZE=0
+for FSIZE in $( xzdec $1 | tar tv  | awk '{print $3}'); do
+    [ "$FSIZE" = "${FSIZE//[^0-9]/}"  ] && TSIZE=$((TSIZE+FSIZE)) 
+done
+
+[ $TSIZE -eq 0  ] && exit 14
+
+MSG="Extracting..."
+PROG_POS=$((${#MSG}+1))
+PERC_POS=$((${#MSG}+53))
+
+echo $MSG
+
+PREV=-1
+NSIZE=0
+for FSIZE in $( xzdec $1 | tar xvv -C $2 | awk '{print $3}'); do
+    if [ "$FSIZE" = "${FSIZE//[^0-9]/}"  ]; then 
+        NSIZE=$((NSIZE+FSIZE))
+        PERCENT=$((NSIZE*100/TSIZE))
+        if [ $PERCENT -ne $PREV  ]; then 
+            PLUS=$((PERCENT/2))
+            PROGRESS=$(printf "%.${PLUS}d" | tr '0' '+')
+            echo -e "\e[A\e[${PROG_POS}G${PROGRESS}=>"
+            echo -e "\e[A\e[${PERC_POS}G${PERCENT}%"
+            PREV=$PERCENT
+        fi      
+fi
+done
+}

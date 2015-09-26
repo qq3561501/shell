@@ -1,0 +1,27 @@
+[Thu Apr 16 19:10:15 CST 2015]: offline start P01010100 [NAPA-MASTER (Rev: A1)] 4NAP110101460166
+Find Sda: 32078036992 bytes, start to mkfs.
+Initialize the disk(sda) success.
+We can't find Sdb on  4NAP110101460166 usb1
+We can't find Sdc on  4NAP110101460166 usb1
+sbim install sromboot_433.bin success.
+sbim install fvcommon-ramfs-uartm-184581.sp1.0.bootrom success.
+sbim install fvcommon-sda1-uartm-184581.sp1.0.bootrom  success.
+Dump the version of the  FPGA's rom.
+	Major version: 8
+	Release date: 2014-5-30
+[Thu Apr 16 19:13:31 CST 2015]: offline start fb
+Mount and copy the filesystem on sda   sucess
+#### Error no sdb ######
+#### Error no sdc ######
+[Thu Apr 16 19:54:39 CST 2015]: fival version P01010100 [NAPA-MASTER (Rev: A1)] 4NAP110101460166
+[BOARD-VERSION----2015-04-16 19:54:39]: Get the board serial     : 4NAP110101460166
+[BIB-VERSION------2015-04-16 19:54:39]: Get the bib versionl     : fvbib-napa-V1.24
+[MDE-VERSION------2015-04-16 19:54:39]: Get the mde version      : 4.2.2.169597 [sp1.0] (source dist) 2014-05-14 15:29:10
+[MEM-SIZE---------2015-04-16 19:54:39]: Get the memory size      : 15.8537 GB
+[MEM-FREQ---------2015-04-16 19:54:39]: Get the memory freq      : 1328 MHz
+[CPU-FREQ---------2015-04-16 19:54:39]: Get the cpu freq         : 1 GHz
+[SROMBOOT-SIZE----2015-04-16 19:54:39]: Get the sromboot size    : 3904 Bytes
+[RAMFSROM-VERSION-2015-04-16 19:54:39]: Get the ramfsrom version : unknow version
+[SDAROM-VERSION---2015-04-16 19:54:39]: Get the sdasrom version  : unknow version
+[DISK-LINKSPEED---2015-04-16 19:54:39]: Get the disk linkspeed   :  Gbps
+[DISK-SIZE--------2015-04-16 19:54:40]: Get the sda size         : 32.0 GB,

@@ -1,0 +1,12 @@
+[Wed Mar 18 18:49:48 CST 2015]: offline start P01020100 [NAPA-SLAVE (Rev: A1)] 4NAP110101460148
+Find Sda: 32078036992 bytes, start to mkfs.
+Initialize the disk(sda) success.
+We can't find Sdb on  4NAP110101460148 usb1
+We can't find Sdc on  4NAP110101460148 usb1
+sbim install sromboot_433.bin success.
+sbim install fvcommon-ramfs-uarts-184581.sp1.0.bootrom success.
+sbim install fvcommon-sda1-uarts-184581.sp1.0.bootrom  success.
+[Wed Mar 18 18:52:48 CST 2015]: offline start fb
+Mount and copy the filesystem on sda   sucess
+#### Error no sdb ######
+#### Error no sdc ######

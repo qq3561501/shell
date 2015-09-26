@@ -1,0 +1,10 @@
+#! /bin/sh
+# Initialize the switch
+cat /sys/hypervisor/board/board_part | grep "NAPA-MASTER" >/dev/null
+if [ $? -eq 0 ]
+then
+insmod /opt/napabsp/driver/drv_hwlogic_3.10.61.ko
+taskset -c 0 /opt/napabsp/switch/netserve -d 8888 /opt/napabsp/switch/bcm.user &
+
+fi
+

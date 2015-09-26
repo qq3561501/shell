@@ -1,0 +1,160 @@
+[Tue Jun 30 13:28:32 EDT 2015]: offline start P01010000 : NAPA-MASTER (rev: A0) 4NAP110101340027
+[Tue Jun 30 14:10:43 EDT 2015]: offline start P01010000 : NAPA-MASTER (rev: A0) 4NAP110101340027
+#:
+generic
+settings
+for
+all
+tilegx
+devices
+20-rootfs.sh
+[Tue Jun 30 14:10:43 EDT 2015]: offline start creat rootfs
+#### Error no sda ######
+#### Error no sdb ######
+#### Error no sdc ######
+30-sysmodify.sh
+[Tue Jun 30 14:10:43 EDT 2015]: offline start modify operation
+40-sbim.sh
+99-chkver.sh
+[Tue Jun 30 14:10:48 EDT 2015]: fival version P01010000 : NAPA-MASTER (rev: A0) 4NAP110101340027
+[BOARD-VERSION----2015-06-30 14:10:48]: Get the board serial     : 4NAP110101340027
+[BIB-VERSION------2015-06-30 14:10:48]: Get the bib versionl     : fvbib-napa-V1.12
+[MDE-VERSION------2015-06-30 14:10:48]: Get the mde version      : 4.3.3.184581 [sp1.0] (source dist) 2015-03-09 15:59:15
+[MEM-SIZE---------2015-06-30 14:10:48]: Get the memory size      : 15.8568 GB
+[MEM-FREQ---------2015-06-30 14:10:48]: Get the memory freq      : 1062 MHz
+[CPU-FREQ---------2015-06-30 14:10:48]: Get the cpu freq         : 1.2 GHz
+[SROMBOOT-SIZE----2015-06-30 14:10:48]: Get the sromboot size    : 3904 Bytes
+[RAMFSROM-VERSION-2015-06-30 14:10:48]: Get the ramfsrom version : fvcommon-sda1-149467sp1.1.bootrom
+[SDAROM-VERSION---2015-06-30 14:10:48]: Get the sdasrom version  : unknow version
+[DISK-LINKSPEED---2015-06-30 14:10:48]: Get the disk linkspeed   :  Gbps
+[DISK-SIZE--------2015-06-30 14:10:49]: Get the sda size         : 32.0 GB,
+[Tue Jun 30 14:31:51 EDT 2015]: offline start P01010000 : NAPA-MASTER (rev: A0) 4NAP110101340027
+10-mkfs.sh
+[Tue Jun 30 14:31:52 EDT 2015]: offline start P01010000 : NAPA-MASTER (rev: A0) 4NAP110101340027
+Find Sda: 32078036992 bytes, start to mkfs.
+[Tue Jun 30 14:42:30 EDT 2015]: offline start P01010000 : NAPA-MASTER (rev: A0) 4NAP110101340027
+10-mkfs.sh
+[Tue Jun 30 14:42:30 EDT 2015]: offline start P01010000 : NAPA-MASTER (rev: A0) 4NAP110101340027
+Find Sda: 32078036992 bytes, start to mkfs.
+[Tue Jun 30 14:56:58 EDT 2015]: offline start P01010000 : NAPA-MASTER (rev: A0) 4NAP110101340027
+10-mkfs.sh
+[Tue Jun 30 14:56:58 EDT 2015]: offline start P01010000 : NAPA-MASTER (rev: A0) 4NAP110101340027
+Find Sda: 32078036992 bytes, start to mkfs.
+[Tue Jun 30 17:45:33 EDT 2015]: offline start P01010000 : NAPA-MASTER (rev: A0) 4NAP110101340027
+10-mkfs.sh
+20-rootfs.sh
+30-sysmodify.sh
+40-sbim.sh
+99-chkver.sh
+[Tue Jun 30 17:50:06 EDT 2015]: offline start P01010000 : NAPA-MASTER (rev: A0) 4NAP110101340027
+10-mkfs.sh
+[Tue Jun 30 17:50:06 EDT 2015]: offline start P01010000 : NAPA-MASTER (rev: A0) 4NAP110101340027
+Find Sda: 32078036992 bytes, start to mkfs.
+Initialize the disk(sda) success.
+We can't find Sdb on NAPA-MASTER 4NAP110101340027 
+We can't find Sdc on NAPA-MASTER 4NAP110101340027 
+20-rootfs.sh
+[Tue Jun 30 17:51:30 EDT 2015]: offline start creat rootfs
+creat rootfs on sda   sucess
+#### Error no sdb ######
+#### Error no sdc ######
+30-sysmodify.sh
+[Tue Jun 30 18:39:06 EDT 2015]: offline start modify operation
+40-sbim.sh
+99-chkver.sh
+[Tue Jun 30 18:39:12 EDT 2015]: fival version P01010000 : NAPA-MASTER (rev: A0) 4NAP110101340027
+[BOARD-VERSION----2015-06-30 18:39:12]: Get the board serial     : 4NAP110101340027
+[BIB-VERSION------2015-06-30 18:39:12]: Get the bib versionl     : fvbib-napa-V1.12
+[MDE-VERSION------2015-06-30 18:39:12]: Get the mde version      : 4.3.3.184581 [sp1.0] (source dist) 2015-03-09 15:59:15
+[MEM-SIZE---------2015-06-30 18:39:12]: Get the memory size      : 15.8568 GB
+[MEM-FREQ---------2015-06-30 18:39:12]: Get the memory freq      : 1062 MHz
+[CPU-FREQ---------2015-06-30 18:39:12]: Get the cpu freq         : 1.2 GHz
+[SROMBOOT-SIZE----2015-06-30 18:39:12]: Get the sromboot size    : 3904 Bytes
+[RAMFSROM-VERSION-2015-06-30 18:39:12]: Get the ramfsrom version : fvcommon-sda1-149467sp1.1.bootrom
+[SDAROM-VERSION---2015-06-30 18:39:12]: Get the sdasrom version  : unknow version
+[DISK-LINKSPEED---2015-06-30 18:39:12]: Get the disk linkspeed   :  Gbps
+[DISK-SIZE--------2015-06-30 18:39:12]: Get the sda size         : 32.0 GB,
+[Wed Jul  1 07:55:28 EDT 2015]: offline start modify operation
+sucess
+#### Error no sdb ######
+#### Error no sdc ######
+[Wed Jul  1 10:22:26 EDT 2015]: fival version P01010000 4NAP110101340027
+[BOARD-VERSION----2015-07-01 10:22:26]: Get the board serial     : 4NAP110101340027
+[BIB-VERSION------2015-07-01 10:22:26]: Get the bib versionl     : fvbib-napa-V1.12
+[MDE-VERSION------2015-07-01 10:22:26]: Get the mde version      : 4.3.3.184581 [sp1.0] (source dist) 2015-03-09 15:59:15
+[MEM-SIZE---------2015-07-01 10:22:26]: Get the memory size      : 15.8568 GB
+[MEM-FREQ---------2015-07-01 10:22:26]: Get the memory freq      : 1062 MHz
+[CPU-FREQ---------2015-07-01 10:22:26]: Get the cpu freq         : 1.2 GHz
+[SROMBOOT-SIZE----2015-07-01 10:22:26]: Get the sromboot size    : 3904 Bytes
+[RAMFSROM-VERSION-2015-07-01 10:22:26]: Get the ramfsrom version : fvcommon-sda1-149467sp1.1.bootrom
+[SDAROM-VERSION---2015-07-01 10:22:26]: Get the sdasrom version  : unknow version
+[DISK-LINKSPEED---2015-07-01 10:22:26]: Get the disk linkspeed   :  Gbps
+[DISK-SIZE--------2015-07-01 10:22:26]: Get the sda size         : 32.0 GB,
+[Wed Jul  1 10:22:59 EDT 2015]: fival version P01010000 4NAP110101340027
+[BOARD-VERSION----2015-07-01 10:22:59]: Get the board serial     : 4NAP110101340027
+[BIB-VERSION------2015-07-01 10:22:59]: Get the bib versionl     : fvbib-napa-V1.12
+[MDE-VERSION------2015-07-01 10:22:59]: Get the mde version      : 4.3.3.184581 [sp1.0] (source dist) 2015-03-09 15:59:15
+[MEM-SIZE---------2015-07-01 10:22:59]: Get the memory size      : 15.8568 GB
+[MEM-FREQ---------2015-07-01 10:22:59]: Get the memory freq      : 1062 MHz
+[CPU-FREQ---------2015-07-01 10:22:59]: Get the cpu freq         : 1.2 GHz
+[SROMBOOT-SIZE----2015-07-01 10:22:59]: Get the sromboot size    : 3904 Bytes
+[RAMFSROM-VERSION-2015-07-01 10:22:59]: Get the ramfsrom version : unknow version
+[SDAROM-VERSION---2015-07-01 10:22:59]: Get the sdasrom version  : unknow version
+[DISK-LINKSPEED---2015-07-01 10:22:59]: Get the disk linkspeed   :  Gbps
+[DISK-SIZE--------2015-07-01 10:22:59]: Get the sda size         : 32.0 GB,
+[Wed Jul  1 10:24:59 EDT 2015]: fival version P01010000 4NAP110101340027
+[BOARD-VERSION----2015-07-01 10:24:59]: Get the board serial     : 4NAP110101340027
+[BIB-VERSION------2015-07-01 10:24:59]: Get the bib versionl     : fvbib-napa-V1.12
+[MDE-VERSION------2015-07-01 10:24:59]: Get the mde version      : 4.3.3.184581 [sp1.0] (source dist) 2015-03-09 15:59:15
+[MEM-SIZE---------2015-07-01 10:24:59]: Get the memory size      : 15.8568 GB
+[MEM-FREQ---------2015-07-01 10:24:59]: Get the memory freq      : 1062 MHz
+[CPU-FREQ---------2015-07-01 10:24:59]: Get the cpu freq         : 1.2 GHz
+[SROMBOOT-SIZE----2015-07-01 10:24:59]: Get the sromboot size    : present. Bytes
+[RAMFSROM-VERSION-2015-07-01 10:24:59]: Get the ramfsrom version : unknow version
+[SDAROM-VERSION---2015-07-01 10:24:59]: Get the sdasrom version  : unknow version
+[DISK-LINKSPEED---2015-07-01 10:24:59]: Get the disk linkspeed   :  Gbps
+[DISK-SIZE--------2015-07-01 10:24:59]: Get the sda size         : 32.0 GB,
+[Wed Jul  1 10:26:42 EDT 2015]: fival version P01010000 4NAP110101340027
+[BOARD-VERSION----2015-07-01 10:26:42]: Get the board serial     : 4NAP110101340027
+[BIB-VERSION------2015-07-01 10:26:42]: Get the bib versionl     : fvbib-napa-V1.12
+[MDE-VERSION------2015-07-01 10:26:42]: Get the mde version      : 4.3.3.184581 [sp1.0] (source dist) 2015-03-09 15:59:15
+[MEM-SIZE---------2015-07-01 10:26:42]: Get the memory size      : 15.8568 GB
+[MEM-FREQ---------2015-07-01 10:26:42]: Get the memory freq      : 1062 MHz
+[CPU-FREQ---------2015-07-01 10:26:42]: Get the cpu freq         : 1.2 GHz
+[SROMBOOT-SIZE----2015-07-01 10:26:42]: Get the sromboot size    : present. Bytes
+[RAMFSROM-VERSION-2015-07-01 10:26:42]: Get the ramfsrom version : unknow version
+[SDAROM-VERSION---2015-07-01 10:26:42]: Get the sdasrom version  : unknow version
+[DISK-LINKSPEED---2015-07-01 10:26:42]: Get the disk linkspeed   :  Gbps
+[DISK-SIZE--------2015-07-01 10:26:42]: Get the sda size         : 32.0 GB,
+Dump the version of the  FPGA's rom.
+	Major version: 8
+	Release date: 2014-5-30
+[FPGA-VERSION----2015-07-01 10:31:39]: Get the FPGA version     :  release at : 
+[Wed Jul  1 10:31:39 EDT 2015]: fival version P01010000 4NAP110101340027
+[BOARD-VERSION----2015-07-01 10:31:39]: Get the board serial     : 4NAP110101340027
+[BIB-VERSION------2015-07-01 10:31:39]: Get the bib versionl     : fvbib-napa-V1.12
+[MDE-VERSION------2015-07-01 10:31:39]: Get the mde version      : 4.3.3.184581 [sp1.0] (source dist) 2015-03-09 15:59:15
+[MEM-SIZE---------2015-07-01 10:31:39]: Get the memory size      : 15.8568 GB
+[MEM-FREQ---------2015-07-01 10:31:39]: Get the memory freq      : 1062 MHz
+[CPU-FREQ---------2015-07-01 10:31:39]: Get the cpu freq         : 1.2 GHz
+[SROMBOOT-SIZE----2015-07-01 10:31:39]: Get the sromboot size    : present. Bytes
+[RAMFSROM-VERSION-2015-07-01 10:31:39]: Get the ramfsrom version : unknow version
+[SDAROM-VERSION---2015-07-01 10:31:39]: Get the sdasrom version  : unknow version
+[DISK-LINKSPEED---2015-07-01 10:31:39]: Get the disk linkspeed   :  Gbps
+[DISK-SIZE--------2015-07-01 10:31:39]: Get the sda size         : 32.0 GB,
+Dump the version of the  FPGA's rom.
+	Major version: 8
+	Release date: 2014-5-30
+[FPGA-VERSION----2015-07-01 10:33:20]: Get the FPGA version     :  8 release at : 
+[Wed Jul  1 10:33:20 EDT 2015]: fival version P01010000 4NAP110101340027
+[BOARD-VERSION----2015-07-01 10:33:20]: Get the board serial     : 4NAP110101340027
+[BIB-VERSION------2015-07-01 10:33:20]: Get the bib versionl     : fvbib-napa-V1.12
+[MDE-VERSION------2015-07-01 10:33:20]: Get the mde version      : 4.3.3.184581 [sp1.0] (source dist) 2015-03-09 15:59:15
+[MEM-SIZE---------2015-07-01 10:33:20]: Get the memory size      : 15.8568 GB
+[MEM-FREQ---------2015-07-01 10:33:20]: Get the memory freq      : 1062 MHz
+[CPU-FREQ---------2015-07-01 10:33:20]: Get the cpu freq         : 1.2 GHz
+[SROMBOOT-SIZE----2015-07-01 10:33:20]: Get the sromboot size    : present. Bytes
+[RAMFSROM-VERSION-2015-07-01 10:33:20]: Get the ramfsrom version : unknow version
+[SDAROM-VERSION---2015-07-01 10:33:20]: Get the sdasrom version  : unknow version
+[DISK-LINKSPEED---2015-07-01 10:33:20]: Get the disk linkspeed   :  Gbps
+[DISK-SIZE--------2015-07-01 10:33:20]: Get the sda size         : 32.0 GB,

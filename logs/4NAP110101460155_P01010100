@@ -1,0 +1,50 @@
+[Wed Jul  1 12:27:17 EDT 2015]: offline start P01010100 : NAPA-MASTER (rev: A1) 4NAP110101460155
+10-mkfs.sh
+[Wed Jul  1 12:27:17 EDT 2015]: offline start P01010100 : NAPA-MASTER (rev: A1) 4NAP110101460155
+Find Sda: 32078036992 bytes, start to mkfs.
+Initialize the disk(sda) success.
+We can't find Sdb on NAPA-MASTER 4NAP110101460155 
+We can't find Sdc on NAPA-MASTER 4NAP110101460155 
+20-rootfs.sh
+[Wed Jul  1 12:28:46 EDT 2015]: offline start creat rootfs
+creat rootfs on sda   sucess
+#### Error no sdb ######
+#### Error no sdc ######
+30-sysmodify.sh
+[Wed Jul  1 12:28:47 EDT 2015]: offline start modify operation
+sucess
+#### Error no sdb ######
+#### Error no sdc ######
+40-sbim.sh
+99-chkver.sh
+[Wed Jul  1 12:30:06 EDT 2015]: fival version P01010100 4NAP110101460155
+[FPGA-VERSION-----2015-07-01 12:30:07]: Get the FPGA version     :  release at : 
+[BOARD-VERSION----2015-07-01 12:30:14]: Get the board serial     : 4NAP110101460155
+[BIB-VERSION------2015-07-01 12:30:14]: Get the bib versionl     : fvbib-napa-V1.14
+[MDE-VERSION------2015-07-01 12:30:14]: Get the mde version      : 4.3.3.184581 [sp1.0] (source dist) 2015-03-09 15:59:15
+[MEM-SIZE---------2015-07-01 12:30:14]: Get the memory size      : 15.8568 GB
+[MEM-FREQ---------2015-07-01 12:30:14]: Get the memory freq      : 1328 MHz
+[CPU-FREQ---------2015-07-01 12:30:14]: Get the cpu freq         : 1.2 GHz
+[SROMBOOT-SIZE----2015-07-01 12:30:14]: Get the sromboot size    : 3904 Bytes
+[RAMFSROM-VERSION-2015-07-01 12:30:14]: Get the ramfsrom version : fvcommon-ramfs-184581sp1.01.bootrom
+[SDAROM-VERSION---2015-07-01 12:30:14]: Get the sdasrom version  : fvcommon-sda1-184581sp1.01.bootrom
+[DISK-LINKSPEED---2015-07-01 12:30:14]: Get the disk linkspeed   :  Gbps
+[DISK-SIZE--------2015-07-01 12:30:15]: Get the sda size         : 32.0 GB,
+[Wed Jul  1 12:52:28 EDT 2015]: offline start P01010100 : NAPA-MASTER (rev: A1) 4NAP110101460155
+10-mkfs.sh
+[Wed Jul  1 12:52:28 EDT 2015]: offline start P01010100 : NAPA-MASTER (rev: A1) 4NAP110101460155
+Find Sda: 32078036992 bytes, start to mkfs.
+Initialize the disk(sda) success.
+We can't find Sdb on NAPA-MASTER 4NAP110101460155 
+We can't find Sdc on NAPA-MASTER 4NAP110101460155 
+20-rootfs.sh
+[Wed Jul  1 12:54:16 EDT 2015]: offline start creat rootfs
+creat rootfs on sda   sucess
+#### Error no sdb ######
+#### Error no sdc ######
+30-sysmodify.sh
+[Wed Jul  1 12:54:16 EDT 2015]: offline start modify operation
+sucess
+#### Error no sdb ######
+#### Error no sdc ######
+40-sbim.sh

@@ -1,0 +1,3 @@
+[v1.0]
+netserve: listen address set to 127.0.0.1
+netserve: default mode set to LINEMODE

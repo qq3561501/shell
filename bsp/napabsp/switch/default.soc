@@ -1,0 +1,9 @@
+sys forceset 6 11 1
+sys forceset 11 6 1
+sys forceset 7 10 1
+sys forceset 10 7 1
+sys forceset 8 1 1
+sys forceset 1 8 1
+sys forceset 9 0 1
+sys forceset 0 9 1
+#shell

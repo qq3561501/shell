@@ -1,0 +1,15 @@
+[Wed Mar 18 19:03:14 CST 2015]: offline start P01010100 [NAPA-MASTER (Rev: A1)] 4NAP110101460156
+Find Sda: 32078036992 bytes, start to mkfs.
+Initialize the disk(sda) success.
+We can't find Sdb on  4NAP110101460156 usb0
+We can't find Sdc on  4NAP110101460156 usb0
+sbim install sromboot_433.bin success.
+sbim install fvcommon-ramfs-uartm-184581.sp1.0.bootrom success.
+sbim install fvcommon-sda1-uartm-184581.sp1.0.bootrom  success.
+Dump the version of the  FPGA's rom.
+	Major version: 8
+	Release date: 2014-5-30
+[Wed Mar 18 19:06:20 CST 2015]: offline start fb
+Mount and copy the filesystem on sda   sucess
+#### Error no sdb ######
+#### Error no sdc ######

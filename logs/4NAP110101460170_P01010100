@@ -1,0 +1,12 @@
+[Tue Mar 24 03:53:05 UTC 2015]: fival version P01010100 : NAPA-MASTER (rev: A1) 4NAP110101460170
+[BOARD-VERSION----2015-03-24 03:53:05]: Get the board serial     : 4NAP110101460170
+[BIB-VERSION------2015-03-24 03:53:06]: Get the bib versionl     : fvbib-napa-V1.24
+[MDE-VERSION------2015-03-24 03:53:06]: Get the mde version      : 4.3.3.184581 [sp1.0] (source dist) 2015-03-09 15:59:15
+[MEM-SIZE---------2015-03-24 03:53:06]: Get the memory size      : 15.8582 GB
+[MEM-FREQ---------2015-03-24 03:53:06]: Get the memory freq      : 1328 MHz
+[CPU-FREQ---------2015-03-24 03:53:06]: Get the cpu freq         : 1.2 GHz
+[SROMBOOT-SIZE----2015-03-24 03:53:06]: Get the sromboot size    : 3904 Bytes
+[RAMFSROM-VERSION-2015-03-24 03:53:06]: Get the ramfsrom version : unknow version
+[SDAROM-VERSION---2015-03-24 03:53:06]: Get the sdasrom version  : unknow version
+[DISK-LINKSPEED---2015-03-24 03:53:07]: Get the disk linkspeed   :  Gbps
+[DISK-SIZE--------2015-03-24 03:53:07]: Get the sda size         : 32.1 GB,
